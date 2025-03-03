@@ -25,6 +25,9 @@ module Rouge
                     | Новый           | New           | Процедура    | Procedure
                     | Функция         | Function      | Перем        | Var
                     | Экспорт         | Export        | Знач         | Val
+                    | Асинх           | Async         | Ждать        | Await
+                    | КонецОбласти    | EndReginon    | Область      | Region
+                    | Использовать    | Use
                     )(?=[^\wа-яё]|$)/ix
 
       BUILTINS = /(?<=[^\wа-яё]|^)(?:
